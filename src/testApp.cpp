@@ -21,10 +21,22 @@ void testApp::setup(){
     imgMultY = 1.0;
     imgHFlip = false;
     imgVFlip = false;
-    imgColorize.r = 1;
-    imgColorize.g = 1;
-    imgColorize.b = 1;
-    imgColorize.a = 1;
+    imgColorize.r = 1.0;
+    imgColorize.g = 1.0;
+    imgColorize.b = 1.0;
+    imgColorize.a = 1.0;
+    colorBg = false;
+    bgColor.r = 0.0;
+    bgColor.g = 0.0;
+    bgColor.b = 0.0;
+    bgColor.a = 0.0;
+    transBg = false;
+    secondColor.r = 0.0;
+    secondColor.g = 0.0;
+    secondColor.b = 0.0;
+    secondColor.a = 0.0;
+    transDuration = 1.0;
+    bBlendModes = false;
 
     // open an outgoing connection to HOST:PORT
 	guiOscSender.setup( host, port );

@@ -52,4 +52,10 @@ class testApp : public ofBaseApp{
         bool imgHFlip;
         bool imgVFlip;
         ofFloatColor imgColorize;
+        bool colorBg;
+        ofFloatColor bgColor;
+        bool transBg;
+        ofFloatColor secondColor;
+        float transDuration;
+        bool bBlendModes;
 };
